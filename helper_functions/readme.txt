@@ -1,47 +1,9 @@
-my_experiment Executable
+One-Bit Matrix Completion (1BMC) Toolbox version 1.0
 
-1. Prerequisites for Deployment 
+This software package contains tools for matrix completion in the extreme case of noisy 1-bit observations. For further details, see the paper "1-Bit Matrix Completion," by Mark A. Davenport, Yaniv Plan, Ewout van den Berg, and Mary Wootters at http://arxiv.org/abs/1209.3672.
 
-Verify that MATLAB Runtime(R2022b) is installed.
-If not, you can run the MATLAB Runtime installer.
-To find its location, enter
-  
-    >>mcrinstaller
-      
-at the MATLAB prompt.
-NOTE: You will need administrator rights to run the MATLAB Runtime installer. 
+This toolbox contains most of the software necessary to reproduce the results presented in this paper. In particular, see the file "syntheticSims.m" reproduces the synthetic simulations and "movielens.m" reproduces the simulations involving the MovieLens dataset. (Note that "movielens.m" also requires the installation of the TFOCS package and the raw MovieLens dataset, which are not included in this package.  See "movielens.m" for further details.)
 
-Alternatively, download and install the Windows version of the MATLAB Runtime for R2022b 
-from the following link on the MathWorks website:
+To begin experimenting with one-bit matrix completion, see the "demo.m" file, which shows the core routines of this toolbox in action.  
 
-    https://www.mathworks.com/products/compiler/mcr/index.html
-   
-For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
-"Distribute Applications" in the MATLAB Compiler documentation  
-in the MathWorks Documentation Center.
-
-2. Files to Deploy and Package
-
-Files to Package for Standalone 
-================================
--my_experiment.exe
--MCRInstaller.exe 
-    Note: if end users are unable to download the MATLAB Runtime using the
-    instructions in the previous section, include it when building your 
-    component by clicking the "Runtime included in package" link in the
-    Deployment Tool.
--This readme file 
-
-
-
-3. Definitions
-
-For information on deployment terminology, go to
-https://www.mathworks.com/help and select MATLAB Compiler >
-Getting Started > About Application Deployment >
-Deployment Product Terms in the MathWorks Documentation
-Center.
-
-
-
-
+Please e-mail mdav@gatech.edu if you find any bugs or have any questions. 
