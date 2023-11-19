@@ -1,1 +1,6 @@
+These are the dataset used to predict drug against the three multi drug resistance bacteria strains.
+
+  - Bacteria similarity matrix is formed for these three bacteria
+  - Drug-Bacteria association matrix is formed again using these three bacteria
+  
 
