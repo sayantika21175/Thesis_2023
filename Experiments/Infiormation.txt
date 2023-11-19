@@ -1,1 +1,10 @@
+This experiment focuses on the prediction of drugs against an unknown bacterial strain.
+
+Bacteria Strains are:
+### Three multi drug resistance bacteria strains
+
+  - Mycobacterium tuberculosis strain NIRTX011
+  - Klebsiella pneumoniae strain U25 
+  - Neisseria gonorrhoeae strain H041
+
 
