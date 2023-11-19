@@ -1,5 +1,5 @@
 # Thesis_2023
-"A Computational Approach to assist healthcare professionals inselecting Antibacterial Drugs to treat Bacterial Infections"
+"A Computational Approach to assist healthcare professionals in selecting Antibacterial Drugs to treat Bacterial Infections"
 Sayantika Chatterjee (IIIT Delhi), Angshul Majumdar (IIIT Delhi), Emilie Chouzenoux(OPIS, Inria Saclay)
 
 ### Overview of the work:
@@ -19,18 +19,22 @@ Sayantika Chatterjee (IIIT Delhi), Angshul Majumdar (IIIT Delhi), Emilie Chouzen
 
   ### 4. Benchmark state-of-the-art algorithms
 
-_____________________________________________________________________________________________________________________________________________________________________________________
+_
+
+![Project Logo](Thesis_2023/helper_functions
+/Picture1.png
+)____________________________________________________________________________________________________________________________________________________________________________________
 ### Algorithms used (Matrix Completion Techniques)
     This section features a set of computational techniques based on matrix completion. These methods are designed to predict potential anti-Bacteria drug candidates.
-    ### 1.Basic Framework 
+     1.**Basic Framework **
       - Matrix factorization
       - Matrix Completion
       - Binary Matrix Completion
 
-    ### 2. Deep Frameworks:
+     2. **Deep Frameworks:**
       - Deep Matrix factorization
 
-    ### 3. Graph regularized Frameworks:
+     3. **Graph regularized Frameworks:**
       - Graph regularized matrix factorization(GRMF)
       - Graph regularized matrix completion(GRMC)
       - Graph regularized deep matrix factorization(GRDMF)
